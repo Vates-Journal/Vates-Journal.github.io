@@ -32,9 +32,9 @@
       if (i.ed) meta.push("Edited by " + i.ed);
       if (i.pages) meta.push(i.pages + " pages");
       var body = ph
-        ? '<span class="badge" style="background:#7a2218">Placeholder</span>' +
+        ? '<span class="badge" style="background:#7a2218">Coming soon</span>' +
           '<h3>' + title + '</h3><p class="when">' + esc(i.when) + '</p>' +
-          '<p>PDF to be added: save it as <code>issues/vates-issue-' + (i.n < 10 ? "0" : "") + i.n + '.pdf</code> and edit this issue\u2019s line in <code>js/issues-data.js</code>.</p>'
+          '<p>New issue coming very soon.</p>'
         : (isLatest ? '<span class="badge">Latest</span>' : '') +
           '<h3>' + title + '</h3><p class="when">' + esc(i.when) + (i.note ? " \u2014 " + esc(i.note) : "") + '</p>' +
           '<p class="by">' + esc(meta.join(" \u00b7 ")) + '</p>' +
