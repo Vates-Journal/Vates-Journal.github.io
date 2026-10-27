@@ -45,6 +45,7 @@ Optional: the no-JavaScript fallback list in `issues.html` (inside `<noscript>`)
 
 - `anthology.html` is a hand-written page (no JS). Everything on it comes from the anthology PDF: description from the editor's Introduction, "First published 2015", ISBN 978-0-9547473-4-3, the copyright line ("All texts and translations remain copyright of the respective authors") and the Contents (each entry deep-links to its PDF page). To replace the PDF, overwrite `anthology/vates-anthology.pdf` and update the page count/size on the page (and the `#page=` numbers if the contents change).
 - `writing-latin-verse.html` opens with a download panel for `guides/classical-latin-poetry-notes.pdf` (62 pages); its topic list is taken from the PDF's own headings. The home page links to it from the "Find an issue" panel and shows a small Anthology panel above the final banner.
+- `anthology.html` also has a secondary (outline) button, "Also available on Amazon (Kindle)", linking to https://www.amazon.co.uk/Vates-Anthology-New-Latin-Poetry-ebook/dp/B013WGG83Q (new tab, `rel="noopener"`). It is not on the home page. If the Amazon link ever changes, edit it in `anthology.html` only.
 - "Anthology" is in the main navigation and footer ("Explore") of every page except `signpost.html` (which is not part of the site).
 
 ## Home-page sample poem
