@@ -10,8 +10,7 @@
 (function () {
   var MW = "Mark Walker", DM = "Dr David Money";
   window.VATES_ISSUES = [
-    // ↓↓↓ PLACEHOLDER — replace this one line with the real details when the next issue is ready (set pdf to its file name) ↓↓↓
-    { n: 16, when: "Coming very soon", pages: null, ed: null, pdf: null },
+    { n: 16, when: "October 2026",          pages: 128,  ed: DM, pdf: "vates-issue-16.pdf", note: "New series, second issue" },
     { n: 15, when: "August 2025",           pages: 148,  ed: DM, pdf: "vates-issue-15.pdf", note: "New series, first issue" },
     { n: 14, when: "Summer 2018",           pages: 59,   ed: MW, pdf: "vates-issue-14.pdf" },
     { n: 13, when: "Autumn 2017",           pages: 40,   ed: MW, pdf: "vates-issue-13.pdf" },
