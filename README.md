@@ -62,7 +62,7 @@ cd /workspace/vates-site && python3 -m http.server 8765      # then open http://
 
 - Issues: the "Issue 16" placeholder card.
 - Contact: confirm the public contact route and any other social accounts.
-- `signpost.html`: `https://NEW-ADDRESS-TO-BE-CONFIRMED/` (appears twice in the paste-ready HTML, plus the plain-text version).
+- `signpost.html`: `https://vates-journal.github.io/` (appears twice in the paste-ready HTML, plus the plain-text version).
 - After the real domain is known: optionally add `<link rel="canonical">`, an absolute `og:image` URL and a `sitemap.xml`.
 
 ## Deploying (free hosting) — nothing has been pushed or deployed yet
@@ -95,7 +95,7 @@ The folder is already a git repository with one commit (`.gitignore` excludes `o
 
 ### After the real address is known
 
-- Replace `https://NEW-ADDRESS-TO-BE-CONFIRMED/` in `signpost.html` (it appears twice in the paste-ready HTML, plus the plain-text version).
+- Replace `https://vates-journal.github.io/` in `signpost.html` (it appears twice in the paste-ready HTML, plus the plain-text version).
 - Optionally add `<link rel="canonical">`, an absolute `og:image` URL and a `sitemap.xml`.
 - Total size is about 18 MB (16 MB of PDFs), well inside free limits.
 
