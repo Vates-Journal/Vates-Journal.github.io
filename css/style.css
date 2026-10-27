@@ -279,3 +279,24 @@ p { margin: 0 0 1.1em; }
   .mini-feature h2 { font-size: 1.45rem; }
   .dl-box .btn { display: block; text-align: center; }
 }
+
+/* ---------- Poem on the home page ---------- */
+.poem-frame { max-width: 62rem; margin: 0 auto; padding: 2.4rem 2.6rem 1.8rem; border: 1px solid var(--rule); background: var(--paper); position: relative; }
+.poem-frame::before { content: ""; position: absolute; inset: 6px; border: 1px solid var(--rule); pointer-events: none; }
+.poem-frame h3 { text-align: center; font-size: 2.2rem; margin-bottom: .3em; }
+.poem-note { text-align: center; font-style: italic; color: var(--ink-soft); max-width: 40rem; margin: 0 auto 1.8rem; }
+.poem-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem 3.5rem; align-items: start; }
+.poem-latin .verse { margin: 0 0 1rem; font-size: 1.45rem; line-height: 1.55; }
+.poem-metre { font-size: .92rem; color: var(--ink-soft); margin: 0; }
+.poem-english { border-left: 1px solid var(--rule); padding-left: 3rem; }
+.poem-english h4 { font-family: var(--head); font-size: 1.35rem; margin: 0 0 .5em; color: var(--ink); }
+.poem-english p { font-size: 1.05rem; line-height: 1.65; }
+.poem-english sup a { text-decoration: none; padding: 0 .1em; font-weight: 600; }
+.poem-fn { font-size: .88rem; color: var(--ink-soft); padding-left: 1.2rem; margin: 1rem 0 0; }
+.poem-fn li { margin-bottom: .2em; }
+.poem-credit { text-align: center; margin: 1.8rem 0 0; padding-top: 1rem; border-top: 1px solid var(--rule); font-size: .95rem; color: var(--ink-soft); }
+@media (max-width: 52rem) {
+  .poem-cols { grid-template-columns: 1fr; }
+  .poem-english { border-left: 0; padding-left: 0; border-top: 1px solid var(--rule); padding-top: 1.4rem; }
+}
+@media (max-width: 34rem) { .poem-frame { padding: 1.8rem 1.3rem 1.4rem; } .poem-latin .verse { font-size: 1.3rem; } }

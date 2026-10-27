@@ -7,7 +7,7 @@ Works on GitHub Pages, Cloudflare Pages, Netlify, or any static host. **Nothing 
 ## Layout
 
 ```
-index.html                 Home (mission, "read the latest issue", sample-poem placeholder, news)
+index.html                 Home (mission, "read the latest issue", sample poem "Plato Mi", news)
 issues.html                Issues archive (cards drawn from js/issues-data.js)
 writing-latin-verse.html   Download of Mark Walker's introductory notes (PDF) + reading guide to hints/articles inside the issue PDFs
 anthology.html             The Vates Anthology of New Latin Poetry (cover, description, PDF download, contents)
@@ -47,6 +47,10 @@ Optional: the no-JavaScript fallback list in `issues.html` (inside `<noscript>`)
 - `writing-latin-verse.html` opens with a download panel for `guides/classical-latin-poetry-notes.pdf` (62 pages); its topic list is taken from the PDF's own headings. The home page links to it from the "Find an issue" panel and shows a small Anthology panel above the final banner.
 - "Anthology" is in the main navigation and footer ("Explore") of every page except `signpost.html` (which is not part of the site).
 
+## Home-page sample poem
+
+The home page shows Mark Walker's *Plato Mi* (Latin and English "Dear Plato", with his note, "Metre: Hendecasyllables", two footnotes and a credit linking to the Anthology page), copied verbatim from p. 164 of the Anthology PDF. It lives in the `#sample` section of `index.html` (styles: `.poem-*` in `css/style.css`). To change it, replace the `<article class="poem-frame">` block.
+
 ## Preview locally
 
 ```
@@ -55,7 +59,6 @@ cd /workspace/vates-site && python3 -m http.server 8765      # then open http://
 
 ## Placeholders still to fill (all visibly marked on the pages with a dashed red box)
 
-- Home: sample poem (the old site had none; use a poem only with the author's permission).
 - Issues: the "Issue 16" placeholder card.
 - Contact: confirm the public contact route and any other social accounts.
 - `signpost.html`: `https://NEW-ADDRESS-TO-BE-CONFIRMED/` (appears twice in the paste-ready HTML, plus the plain-text version).
